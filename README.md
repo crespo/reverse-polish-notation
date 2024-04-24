@@ -4,7 +4,7 @@ Simple Reverse Polish Notation calculator. It works with integer numbers only an
 ## How it works:
 1. Read a input.
 2. If it is an integer (operand), push to the stack.
-3. If it is an operator, pop the last and second-to-last operands off the list, do the operation and then push it back to the stack.
+3. If it is an operator, pop the last and second-to-last operands off the stack, do the operation and then push it back to the stack.
 4. If it is empty, close the program.
 
 ## Usage:
