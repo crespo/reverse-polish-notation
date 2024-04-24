@@ -14,3 +14,5 @@ Simple Reverse Polish Notation calculator. It works with integer numbers only an
 4. ```Type a integer number or a basic operator (+ = sum, - = subtraction, * = multiplication, / = division) and ↵ Enter.```
 5. ```When you've finished, type ↵ Enter again and the program should stop.```
 
+## Example:
+#### ![an example of the algorithm working. it contains a CLI with the following user inputs: 10, 15, 5, /, 4, *, -, 10, +. The final result is 8](example.png "Example")
