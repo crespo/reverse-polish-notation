@@ -19,7 +19,8 @@ class Stack:
         if not self.stack:
             print("Stack is empty.")
         else:
-            s = self.stack.copy().reverse()
+            s = self.stack.copy()
+            s.reverse()
             n = len(s) - 1
             for e in s:    
                 print(f"level: {n} | operand:  {e}")
